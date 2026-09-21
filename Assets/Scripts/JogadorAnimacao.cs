@@ -16,11 +16,11 @@ public class JogadorAnimacao : MonoBehaviour {
         anim.SetBool("no chao", controleMovimento.estaNoChao);
 
         if (controleMovimento.movimentoX > 0) {
-            controleSprite.flipX = false;
+            transform.localScale = new Vector2(1f, 1f);
         }
 
         if (controleMovimento.movimentoX < 0) {
-            controleSprite.flipX = true;
+            transform.localScale = new Vector2(-1f, 1f);
         }
     }
 }

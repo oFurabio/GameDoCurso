@@ -100,6 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 974894537369789840}
+  - component: {fileID: 1275602867956568549}
   - component: {fileID: 8422158798292685508}
   - component: {fileID: 891260063650713139}
   m_Layer: 0
@@ -125,6 +126,33 @@ Transform:
   - {fileID: 8501239128052069794}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1275602867956568549
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3022986738595419964}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!58 &8422158798292685508
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -173,6 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7809011aad9520f4b8c2bf606375e560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BolaFogo
-  jogadorMovimento: {fileID: 0}
+  tempoDeVida: 5
   velocidade: 8
-  direcao: 1
+  destroySelf: 0
+  direcaoAtual: 1
