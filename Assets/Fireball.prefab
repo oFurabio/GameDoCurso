@@ -173,5 +173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7809011aad9520f4b8c2bf606375e560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BolaFogo
-  jogador: {fileID: 0}
+  jogadorMovimento: {fileID: 0}
   velocidade: 8
+  direcao: 1

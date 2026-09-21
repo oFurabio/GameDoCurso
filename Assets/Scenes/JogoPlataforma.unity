@@ -723,6 +723,7 @@ MonoBehaviour:
   velocidade: 5
   forcaPulo: 7
   movimentoX: 0
+  direcaoOlhando: 0
   estaNoChao: 1
   podePularDenovo: 0
 --- !u!114 &1386490063
@@ -777,6 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JogadorAtaque
   bolaDeFogo: {fileID: 3022986738595419964, guid: b19a844df0ebbb04884cfd1541ef006a, type: 3}
   pontoDeTiro: {fileID: 2001888398}
+  jogadorMovimento: {fileID: 1386490062}
   tempoEntreAtaques: 1.5
   cronometro: 0
 --- !u!1 &1536914833

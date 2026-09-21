@@ -7,8 +7,7 @@ public class JogadorMovimento : MonoBehaviour {
 
     [Header("Variáveis de Movimento")]
     public float velocidade = 5.0f;
-    [Range(5.0f, 9.0f)]
-    public float forcaPulo = 7.0f;
+    [Range(5.0f, 9.0f)] public float forcaPulo = 7.0f;
     
     [Header("Status de Sistema")]
     [Tooltip("Essa variável é utilizada para mostrar quanto o usuário está se movendo e em qual direção")]

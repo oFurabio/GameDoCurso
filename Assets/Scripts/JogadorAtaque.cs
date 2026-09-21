@@ -12,7 +12,7 @@ public class JogadorAtaque : MonoBehaviour {
     private void Update() {
         cronometro = cronometro + Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.Return)) {
+        if (Input.GetKey(KeyCode.Return)) {
             if (cronometro >= tempoEntreAtaques) {
                 Ataque();
             }
